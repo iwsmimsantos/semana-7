@@ -248,18 +248,19 @@ ______
 ![Uma imagem](assets/image.png)
 ______
 
-`// Insira a idade`
-`Leia idade`
-
-`Se idade < 16:`
-   &nbsp;&nbsp;&nbsp;&nbsp; `Escreva ("Não pode votar!")`
-`Senão:`
- &nbsp;&nbsp;&nbsp;&nbsp;   `Se idade >= 16 E idade < 18:`
-&nbsp;&nbsp;&nbsp;&nbsp;    &nbsp;&nbsp;&nbsp;&nbsp;    `Escreva ("Voto facultativo")`
- &nbsp;&nbsp;&nbsp;&nbsp;   `Senão:`
- &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;      `Escreva ("Voto obrigatório")`
- &nbsp;&nbsp;&nbsp;&nbsp;   `fim`
-`fim`
+```
+// Insira a idade
+Leia idade
+Se idade < 16:
+    Escreva ("Não pode votar!")
+Senão:
+     Se idade >= 16 E idade < 18:
+    Escreva ("Voto facultativo")
+    Senão:
+       Escreva ("Voto obrigatório")
+    fim
+fim
+```
 
 **8)** Considere a implementação da classe base FormaGeometrica em um sistema de modelagem de formas geométricas. Sua tarefa é implementar, utilizando pseudocódigo, as classes derivadas Retangulo e Circulo, que herdam da classe FormaGeometrica, adicionando atributos específicos e métodos para calcular a área de um retângulo e de um círculo, respectivamente.
 
